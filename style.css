@@ -90,9 +90,9 @@ a:hover {
   right: 0;
 }
 
- .texture-paper::before {
+.texture-paper::before {
   background-size: 280px 280px;
-} 
+}
 
 .b-parallax {
   background-attachment: fixed;
@@ -772,15 +772,18 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #c27956;
+  background-color: #953d14;
 }
 
 .tc-white {
   color: #f3976c !important;
 }
+.tc-white2 {
+  color: #a24516 !important;
+}
 
 .btn-atomic-tangerine {
-  background: #c27956;
+  background: #953d14;
   color: #ffffff !important;
 }
 
@@ -824,6 +827,19 @@ h4 {
 
 .bg-presentation {
   background-image: url("img/image-de-presentation.png");
+}
+
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
 }
 
 @media (max-width: 1024px) {
